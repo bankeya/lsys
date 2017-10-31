@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="../js/jquery-3.1.1.min.js"charset="UTF-8"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"charset="UTF-8"></script>
+	<script type="text/javascript" src="../js/sea.js"charset="UTF-8"></script>
+	<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	<title>dawn</title>
+</head>
+<body>
+	账号：<input id="account" autocomplete="off"/><div id="accountTips" class="hidden tips">请输入账号！</div><br />
+	密码：<input id="password" autocomplete="off"/><div id="passwordTips" class="hidden tips">请输入密码！</div><br />
+	<input id="login" type="button" value="登录"/>
+</body>
+<script>
+seajs.use("../js/login.js")
+</script>
+</html>

@@ -1,0 +1,47 @@
+.hidden{
+	display: none;
+}
+.tips{
+	color: red;
+}
+.select{
+	color: blue;
+}
+.ocuupation{
+	text-align: center;
+	width: 70px;
+	height: 25px;
+	display: inline-block;
+}
+.mastery{
+	text-align: center;
+	width: 70px;
+	height: 25px;
+	display: inline-block;
+}
+.talent{
+	text-align: center;
+	width: 70px;
+	height: 25px;
+	display: inline-block;
+}
+/*#div1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	display: inline-block;
+	cursor: pointer;
+}
+#div2{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	display: inline-block;
+	cursor: pointer;
+}
+#tips{
+	position: absolute;
+	height: 50px;
+	width: 100px;
+	background-color: green;
+}*/
